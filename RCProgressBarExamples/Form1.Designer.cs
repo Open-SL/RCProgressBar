@@ -31,6 +31,7 @@
             this.roundCorneredProgressBar3 = new RoundCorneredProgressBar.RoundCorneredProgressBar();
             this.roundCorneredProgressBar2 = new RoundCorneredProgressBar.RoundCorneredProgressBar();
             this.roundCorneredProgressBar1 = new RoundCorneredProgressBar.RoundCorneredProgressBar();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.roundCorneredProgressBar3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roundCorneredProgressBar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.roundCorneredProgressBar1)).BeginInit();
@@ -78,11 +79,22 @@
             this.roundCorneredProgressBar1.TabStop = false;
             this.roundCorneredProgressBar1.Value = 67;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(136, 266);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(127, 38);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(401, 349);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.roundCorneredProgressBar3);
             this.Controls.Add(this.roundCorneredProgressBar2);
             this.Controls.Add(this.roundCorneredProgressBar1);
@@ -100,6 +112,7 @@
         private RoundCorneredProgressBar.RoundCorneredProgressBar roundCorneredProgressBar1;
         private RoundCorneredProgressBar.RoundCorneredProgressBar roundCorneredProgressBar2;
         private RoundCorneredProgressBar.RoundCorneredProgressBar roundCorneredProgressBar3;
+        private System.Windows.Forms.Button button1;
     }
 }
 

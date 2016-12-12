@@ -16,6 +16,11 @@ namespace RCProgressBarExamples
         {
             InitializeComponent();
 
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
             roundCorneredProgressBar1.Animate();
             roundCorneredProgressBar2.Animate();
             roundCorneredProgressBar3.Animate();
