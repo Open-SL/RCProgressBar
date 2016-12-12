@@ -5,14 +5,14 @@ Main purpose of the component is to have a smooth animation and proper curved ed
 ### TO INSTALL THE LIBRARY
 This library is available as a NuGet package at [nuget.org](https://www.nuget.org/packages/RoundCornerProgressBar/).
 
-
-### HOW TO USE
+### INSTRUCTIONS
 Use toolbox to add the control to your forms.
 
-Check 'RCProgressBarExamples' project for examples.
+Check 'RCProgressBarExamples' project for more examples.
+
 ![animation](/animation.gif?raw=true "animation")
 
-### MEMBERS
+### CONTROL PROPERTIES
 #####[Properties]
 
 * `RoundCorneredProgressBar.Value`: Value to be shown in progress bar.
