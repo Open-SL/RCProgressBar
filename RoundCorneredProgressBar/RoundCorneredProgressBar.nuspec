@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>RoundCornerProgressBar</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Nadun Indunil</authors>
+    <owners>Nadun Indunil</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>RoundCornered ProgressBar using PictureBox</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>progressBar Round corner edges WinForm Form Progress</tags>
+  </metadata>
+</package>
