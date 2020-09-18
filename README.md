@@ -13,7 +13,7 @@ Check 'RCProgressBarExamples' project for more examples.
 ![animation](/animation.gif?raw=true "animation")
 
 ### CONTROL PROPERTIES
-#####[Properties]
+##### Properties
 
 * `RoundCorneredProgressBar.Value`: Value to be shown in progress bar.
 * `RoundCorneredProgressBar.ProgressFontColor`: Font Color of the progress shown.
@@ -21,6 +21,6 @@ Check 'RCProgressBarExamples' project for more examples.
 * `RoundCorneredProgressBar.ProgressBackColor`: set the backcolor of the progressbar.
 * `RoundCorneredProgressBar.ProgressBarColor`: set the bar color of the progressbar.
 
-#####[Methods]
+##### Methods
 
 * `RoundCorneredProgressBar.Animate`: Starts the smooth animatioin of filling progress.
